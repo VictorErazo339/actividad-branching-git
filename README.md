@@ -1,13 +1,13 @@
 # Actividad Branching Git
 Integrantes:
-Diego Pena
-Brandon Inostroza
-Renato Campos
-Victor Erazo
-Bruno Bustos
-Christopher Contreras
-Alonso Morales
-Julio Oyarzun
+- *Diego Pena             -> Alumno 1*
+- *Brandon Inostroza      -> Alumno 2*
+- *Renato Campos          -> Alumno 3*
+- *Victor Erazo           -> Alumno 4*
+- *Bruno Bustos           -> Alumno 5*
+- *Christopher Contreras  -> Alumno 6*
+- *Alonso Morales         -> Alumno 7*
+- *Julio Oyarzun          -> Alumno 8*
 
 Objetivo
 Practicar branching, fork, pull request y merge.
@@ -107,6 +107,36 @@ Mantener `main` estable es fundamental porque:
 - **Confianza del equipo:** Un equipo que confía en que `main` siempre funciona puede trabajar más rápido y con menos fricción. No necesitan perder tiempo verificando si la rama base está rota.
 - **Facilita la depuración:** Si `main` siempre es estable, cuando aparece un bug se puede comparar fácilmente con versiones anteriores para identificar qué cambio lo introdujo (usando herramientas como `git bisect`).
 - **Profesionalismo y buenas prácticas:** Mantener `main` estable es un indicador de madurez en el proceso de desarrollo de software. Es una práctica estándar en la industria que demuestra disciplina y organización en el equipo.
+
+---
+
+# Alumno 4  ¿Qué es un commit y por qué es importante?
+
+## ¿Qué es un commit?
+
+Un commit es un punto de guardado que captura los cambios realizados en un proyecto en un momento específico.
+
+## ¿Por que se deben hacer commits pequeños?
+
+Porque al hacer commits pequeños las revisiones de código resultan ser mas fáciles de entender entre colaboradores y mantener el historial del proyecto de forma ordenada.
+
+## ¿Cómo ayudan los commits a entender la historia del trabajo?
+
+Los commits se utilizan para explicar que parte del proyecto se realizaron los cambios, quien hizo cada cambio, corregir errores de la versión actual regresando a la anterior para arreglar el origen.
+
+---
+## Alumno 7: El Merge y la Sincronización de Repositorios
+
+### Definición
+El Merge es la acción de fusionar o integrar los cambios de una rama secundaria en la rama principal. La Sincronización es el proceso de actualizar nuestra copia local con los cambios más recientes del repositorio original para trabajar sobre la base más actual.
+#### Respuestas
+¿Qué es un merge? Es un procedimiento en Git que combina secuencias de commits de diferentes ramas en una sola. Se utiliza para consolidar el trabajo finalizado.
+¿Qué es un conflicto? Es una situación de bloqueo que ocurre cuando Git no puede fusionar automáticamente dos cambios porque ambos afectan a la misma línea de un archivo.
+¿Cómo puede evitarse o reducirse? Se puede reducir manteniendo una comunicación fluida con el equipo, haciendo pull (sincronizando) frecuentemente del repositorio original y realizando contribuciones pequeñas y constantes.
+#### Ejemplo
+Si el Alumno 1 cambia la línea 10 del archivo para poner un título y yo, al mismo tiempo, cambio la misma línea 10 para poner un párrafo sin haber sincronizado antes, al intentar hacer el merge, Git se detendrá y me pedirá que elija cuál de las dos versiones debe quedar.
+#### Conclusión personal
+He aprendido que la sincronización es el paso más importante antes de empezar a escribir. Al igual que en el papel maché, si no preparamos bien la base (sincronización), las capas nuevas (nuestro código) no pegarán correctamente y causarán problemas (conflictos) difíciles de arreglar después.
 
 ---
 
